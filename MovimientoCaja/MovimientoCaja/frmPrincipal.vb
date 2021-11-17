@@ -3,6 +3,15 @@
         If e.KeyCode = Keys.Down Then
             lblImagen.Top += 10
         End If
+        If e.KeyCode = Keys.Up Then
+            lblImagen.Top -= 10
+        End If
+        If e.KeyCode = Keys.Left Then
+            lblImagen.Left -= 10
+        End If
+        If e.KeyCode = Keys.Right Then
+            lblImagen.Left += 10
+        End If
     End Sub
 
     Private Sub frmPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
